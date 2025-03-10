@@ -290,6 +290,10 @@ section {
 }
 
 .services {
+  background-color: var(--second-bg-color);
+  color: black;
+}
+.service {
   background-color: var(--bg-color);
   color: black;
 }
@@ -320,8 +324,12 @@ section {
 .service-box:hover{
   background-color: var(--second-bg-color);
   color: var(--main-color);
-  border: 5px solid var(--main-color);
+  border: 5px dotted var(--main-color);
   transform: scale(1.03);
+}
+
+.heading {
+  color: #ffffff;
 }
 
 .service-info{
@@ -367,6 +375,19 @@ section {
   width: 300px;
   height: 300px;
   transform: translateY(-6px);
+  border-radius: 10px;
+}
+
+.image2 {
+  width: 300px;
+  height: 300px;
+  transform: translateY(-30px);
+  border-radius: 10px;
+}
+.image1 {
+  width: 300px;
+  height: 300px;
+  transform: translateY(-20px);
   border-radius: 10px;
 }
 
